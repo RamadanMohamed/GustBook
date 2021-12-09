@@ -1,0 +1,26 @@
+﻿@model Guestbook.Models.AddSms
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>AddSms</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ContentMs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContentMs)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdMs }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

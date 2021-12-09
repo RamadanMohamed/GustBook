@@ -1,0 +1,18 @@
+this web application for GustBook firt step you should authentication you can do that through create account 
+after that authorization detemine what things can you do it in the system i usued session in login and signup 
+because the session save data in next step and used some filters i achieved this application using Asp.Net Mvc, Sql
+Sever As storage ,html and bootstrab, you can writr Sms ,edit sms,and delete sms we can send email contain subject and body
+too 
+smtp.Host = "smtp.gmail.com"
+That is the SMTP Host address of Gmail
+//////
+Smtp.Port=587
+587 is the port for Gmail
+////////
+smtp.Credentials = new System.Net.NetworkCredential("username", "password");  
+Smtp.Credentials specifies the Network Credentials of your Gmail id so please add your username and password instead of 
+("username", "password");
+////////
+smtp.EnableSsl = true;
+used for a secure mail server, so you enable your SSL layer
+
